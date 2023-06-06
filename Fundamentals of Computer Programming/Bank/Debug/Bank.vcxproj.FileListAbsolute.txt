@@ -1,0 +1,2 @@
+C:\Users\Damian234\source\repos\Bank\Debug\Bank.exe
+C:\Users\Damian234\source\repos\Bank\Debug\Bank.pdb

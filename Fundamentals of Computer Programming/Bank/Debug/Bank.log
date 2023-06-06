@@ -1,0 +1,6 @@
+﻿  Source.c
+C:\Users\Damian234\source\repos\Bank\Source.c(400,8): warning C4013: 'gets' undefined; assuming extern returning int
+C:\Users\Damian234\source\repos\Bank\Source.c(472,16): warning C4473: 'fprintf' : not enough arguments passed for format string
+C:\Users\Damian234\source\repos\Bank\Source.c(472,16): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\Damian234\source\repos\Bank\Source.c(472,16): message : the missing variadic argument 2 is required by format string '%.2f'
+  Bank.vcxproj -> C:\Users\Damian234\source\repos\Bank\Debug\Bank.exe
