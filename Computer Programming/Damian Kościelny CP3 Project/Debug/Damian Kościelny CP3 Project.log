@@ -1,0 +1,9 @@
+﻿  Menu.cpp
+  Objects.cpp
+C:\Users\Damian234\source\repos\Damian Kościelny CP3 Project\Objects.cpp(93,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Damian234\source\repos\Damian Kościelny CP3 Project\Objects.cpp(102,21): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+C:\Users\Damian234\source\repos\Damian Kościelny CP3 Project\Menu.cpp(144): warning C4715: 'Menu::select_operation': not all control paths return a value
+C:\Users\Damian234\source\repos\Damian Kościelny CP3 Project\Menu.cpp(225): warning C4715: 'Game_area::pause': not all control paths return a value
+C:\Users\Damian234\source\repos\Damian Kościelny CP3 Project\Menu.cpp(204): warning C4715: 'Game_area::game_over': not all control paths return a value
+  Damian Kościelny CP3 Project.vcxproj -> C:\Users\Damian234\source\repos\Damian Kościelny CP3 Project\Debug\Damian Kościelny CP3 Project.exe
