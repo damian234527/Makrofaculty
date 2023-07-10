@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -189.94,
+      "left": 167.4,
+      "attrs": { "volume": "0.1" }
+    },
+    { "type": "wokwi-ili9341", "id": "lcd1", "top": -412, "left": 326.1, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -118.6,
+      "left": 240,
+      "attrs": { "color": "black", "key": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn2",
+      "top": -118.6,
+      "left": 307.2,
+      "attrs": { "color": "black", "key": "2", "bounce": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn3",
+      "top": -89.8,
+      "left": 38.4,
+      "attrs": { "color": "black", "key": "5" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn4",
+      "top": -118.6,
+      "left": 451.2,
+      "attrs": { "color": "black", "key": "3", "bounce": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn5",
+      "top": -118.6,
+      "left": 518.4,
+      "attrs": { "color": "black", "key": "4" }
+    }
+  ],
+  "connections": [
+    [ "bz1:2", "mega:7", "red", [ "v0" ] ],
+    [ "bz1:1", "mega:GND.1", "black", [ "v0" ] ],
+    [ "btn3:2.r", "mega:GND.1", "black", [ "h0" ] ],
+    [ "lcd1:VCC", "mega:5V.2", "red", [ "v0" ] ],
+    [ "lcd1:GND", "mega:GND.5", "black", [ "v0" ] ],
+    [ "lcd1:SCK", "mega:52", "white", [ "v0" ] ],
+    [ "lcd1:D/C", "mega:50", "white", [ "v0" ] ],
+    [ "lcd1:CS", "mega:53", "white", [ "v0" ] ],
+    [ "lcd1:MOSI", "mega:51", "white", [ "v0" ] ],
+    [ "btn5:2.l", "mega:GND.1", "black", [ "h0", "v77", "h-384" ] ],
+    [ "btn4:2.l", "mega:GND.1", "black", [ "h0", "v67.4", "h-326.4" ] ],
+    [ "btn2:2.l", "mega:GND.1", "black", [ "h0", "v57.8", "h-182.4" ] ],
+    [ "btn1:2.l", "mega:GND.1", "black", [ "h0", "v48.2", "h-115.2" ] ],
+    [ "btn5:1.l", "mega:2", "green", [ "h-9.6", "v86.4", "h-268.8" ] ],
+    [ "btn4:1.l", "mega:3", "green", [ "h-9.6", "v76.8", "h-211.2" ] ],
+    [ "btn2:1.l", "mega:4", "green", [ "h0", "v67.2", "h-86.4" ] ],
+    [ "btn1:1.l", "mega:5", "green", [ "h-28.8" ] ],
+    [ "btn3:1.r", "mega:6", "green", [ "v0", "h96.2" ] ]
+  ],
+  "dependencies": {}
+}

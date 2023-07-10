@@ -1,0 +1,16 @@
+15 15
+xxxxxxxxxxxxxOx
+x.xxxxxx...xx.x
+x.xxxxxx.x.xx.x
+x...x....x....x
+x.xxx.xxxxxxxxx
+x.xxx.xxxxx.xxx
+x.x.........xxx
+x.x.xxxxxxxxx.x
+x.x.xxx.......x
+x.x.xxx.xxxxx.x
+x.x.....x...x.x
+x.xxxxxxx.x.x.x
+x.xxxxxxx.x...x
+I.........xx.xx
+xxxxxxxxxxxxxxx
