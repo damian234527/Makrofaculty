@@ -48,7 +48,7 @@ properties = stepinfo(Kcl)
 
 %     4. Find value of k1 for which a stability degree is equal to a desired value 𝜂. Find a resonance degree for that case. Plot a CL system step response. 
 time_rise = properties.PeakTime;
-%eta = 1 / time_rise * log(r) WYJEBANE, wpisuję randomową wartość
+%eta = 1 / time_rise * log(r)
 %eta = 1 / time_rise * log(r)
 % syms k1
 % K1_den = subs(K0_den, s, 0)
