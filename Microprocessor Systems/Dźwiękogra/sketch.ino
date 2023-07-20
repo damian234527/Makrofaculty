@@ -1,6 +1,6 @@
 //MS Project 3
-//Section 3
-//Marcelina Wesołowska Damian Kościelny Oliwia Fujna
+//Section 3 Marcelina Wesołowska Damian Kościelny Oliwia Fujna
+//Author - Damian Kościelny
 //https://platforma.polsl.pl/rau3/mod/page/view.php?id=32247
 
 #include "SPI.h"
